@@ -1,7 +1,6 @@
 # UK Market Trends
 
 ## Introduction
-
 Welcome to the UK Market Trends project! This initiative is designed to explore and analyze trends in UK markets using the National Market Traders Federation (NMTF) dataset. Through various visualisations, including a composite visualisation, this project aims to answer key questions about market operations, such as:
 - How are different market types distributed geographically?
 - What are the patterns in stall occupancy by day of the week?
@@ -10,7 +9,6 @@ Welcome to the UK Market Trends project! This initiative is designed to explore 
 Key insights include the dominance of retail markets, regional disparities in market representation, and temporal trends in market activity, with Sundays and Mondays being the busiest days.
 
 ## Dataset Description
-
 The dataset, provided by the National Market Traders Federation (NMTF), includes data from 763 UK markets collected between 2016 and 2019. Key features of the dataset include:
 
 - **Market Operation Days**: Indicators for market activity on specific days of the week.
@@ -20,7 +18,6 @@ The dataset, provided by the National Market Traders Federation (NMTF), includes
 This dataset provides a rich source for understanding market trends and dynamics across the UK.
 
 ## Composite Visualization
-
 The composite visualisation combines multiple plots to provide a comprehensive view of UK market trends:
 1. **Spatial Plot**: Shows the geographical distribution of markets.
 2. **Bar Chart**: Illustrates the average stalls occupied by market type and ownership type.
@@ -30,18 +27,30 @@ The composite visualisation combines multiple plots to provide a comprehensive v
 These visualisations collectively answer the research questions and provide actionable insights for stakeholders.
 
 ## Steps to Run the Code
-
 ### 1. Prerequisites
 Before running the code, ensure the following software is installed:
 - **R** (version 4.0 or later)
 - **RStudio** (optional but recommended)
 - **Git** (to clone the repository)
 
-### 2. Clone the Repository
-Clone the repository to your local machine using the command:
+### 2. Clone the Repository and Verify Branch
+Download the project files by cloning the repository to your local machine by running the following command:
 
-`git clone https://github.com/Vishh1999/uk-market-trends.git
+`git clone https://github.com/Vishh1999/uk-stall-occupancy-analysis.git`
 
+After cloning, verify that the active Git branch is set to main:
+Run the following command to check the current branch:
+
+`git branch`
+
+If the output shows * main,\
+you can proceed to the next step.
+
+If the branch is not set to main, switch to the main branch using the following command:
+
+`git checkout main`
+
+This ensures you are working on the correct branch for the project.
 
 ### 3. Dataset Placement
 Ensure that the dataset `nmftmarkets.xlsx` is placed in the root directory of the cloned repository.
@@ -62,12 +71,11 @@ Already generated visualisations are saved in the `images` directory. The output
 - `composite_visualisation.png`
 
 The spatial plot is visible in the Viewer Tab of RStudio where it can be interacted with further.
-## License
 
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
-
 For queries or further information, please contact:
 
 Name: Vishak LV\
