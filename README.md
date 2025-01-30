@@ -36,7 +36,7 @@ Before running the code, ensure the following software is installed:
 ### 2. Clone the Repository and Verify Branch
 Download the project files by cloning the repository to your local machine by running the following command:
 
-`git clone https://github.com/Vishh1999/uk-stall-occupancy-analysis.git`
+`git clone https://github.com/Vishh1999/uk-market-trends.git`
 
 After cloning, verify that the active Git branch is set to main:
 Run the following command to check the current branch:
